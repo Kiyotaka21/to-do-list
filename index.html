@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="./scripts/app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="headling">To do list</h1>
+        <div class="todo-form">
+            <input id="input-container" type="text" class="todo-form__input" placeholder="Add a new task">
+            <button id="button-add" class="button-add" onclick="addTask">
+                <img src="./images/create.svg" alt="добавить задачу">
+            </button>
+        </div>
+        <h2>Tasks to do</h2>
+        <ul class="list-container">
+        </ul>
+        <h2>Done tasks</h2>
+        <ul class="done-list-container"></ul>
+</body>
+
+</html>
